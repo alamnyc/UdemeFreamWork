@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="APITesting" verbose="1" >
+  <test name="Sprint1" >
+    <classes>
+       <class name="" />
+        <class name="" />
+         <class name=""/>
+    </classes>
+  </test>
+</suite>
