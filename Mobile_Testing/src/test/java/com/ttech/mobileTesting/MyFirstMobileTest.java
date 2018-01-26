@@ -27,4 +27,4 @@ import io.appium.java_client.remote.MobilePlatform;
 	driver.findElement(By.xpath("//*[@id=\"m_login_email\"]")).sendKeys("sjahbd");
 	driver.findElement(By.xpath("//*[@id=\"m_login_password\"]")).sendKeys("1233");
 	driver.findElement(By.xpath("//*[@id=\"u_0_5\"]")).click();
-	} }//End class
+	}}//End class
