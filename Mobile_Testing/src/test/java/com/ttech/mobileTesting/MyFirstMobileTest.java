@@ -20,11 +20,11 @@ import io.appium.java_client.remote.MobilePlatform;
 	//cap.setCapability(MobileCapabilityType.PLATFORM,Platform.ANDROID);
 	cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
 	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device" );
-	cap.setCapability(MobileCapabilityType.VERSION, "6.0");
+	cap.setCapability(MobileCapabilityType.VERSION, "5.1.1");
 	AndroidDriver<AndroidElement> driver= new AndroidDriver<AndroidElement>(new URL("http://localhost:4723/wd/hub "),cap); // appium connectivity host
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	driver.get("https://www.facebook.com/");
-	driver.findElement(By.xpath("//*[@id=\"m_login_email\"]")).sendKeys("sjahbd");
-	driver.findElement(By.xpath("//*[@id=\"m_login_password\"]")).sendKeys("1233");
+	driver.findElement(By.xpath("//*[@id=\"m_login_email\"]")).sendKeys("nurnaharbegumnyc@gmail.com");
+	driver.findElement(By.xpath("//*[@id=\"m_login_password\"]")).sendKeys("SAYEDawan2008");
 	driver.findElement(By.xpath("//*[@id=\"u_0_5\"]")).click();
 	}}//End class
