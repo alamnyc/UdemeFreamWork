@@ -1,4 +1,4 @@
-package com.usa.ttech.student;
+/*package com.usa.ttech.student;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -27,3 +27,4 @@ import net.minidev.json.JSONObject;
 	Assert.assertEquals(statusCode, "201");
 	String successCode = response.jsonPath().get("SuccessCode");
 	Assert.assertEquals( "Correct Success code was returned", successCode, "OPERATION_SUCCESS");}}
+*/

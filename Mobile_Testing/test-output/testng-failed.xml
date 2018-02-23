@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ttech.mobileTesting.MyFirstMobileTest">
+      <class name="com.ttech.mobileTesting.AppiumTest">
         <methods>
-          <include name="test1"/>
+          <include name="MobileTest"/>
         </methods>
-      </class> <!-- com.ttech.mobileTesting.MyFirstMobileTest -->
+      </class> <!-- com.ttech.mobileTesting.AppiumTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
