@@ -11,7 +11,7 @@ import io.appium.java_client.android.AndroidElement;
 
 public class CapabilitiesXpath extends CapabilitiesMainClass {
  @Test
- public void mains() throws MalformedURLException  {
+ public void allXpath () throws MalformedURLException  {
 	
 AndroidDriver<AndroidElement> driver = capabilities();
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // this 2 line fix for every Class
