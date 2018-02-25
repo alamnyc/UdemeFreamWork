@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27854" started-at="2018-02-24T21:54:10Z" finished-at="2018-02-24T21:54:38Z">
+  <suite name="Default suite" duration-ms="23095" started-at="2018-02-25T16:36:16Z" finished-at="2018-02-25T16:36:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27854" started-at="2018-02-24T21:54:10Z" finished-at="2018-02-24T21:54:38Z">
-      <class name="com.ttech.mobileTesting.CapabilitiesXpath">
-        <test-method status="PASS" signature="mains()[pri:0, instance:com.ttech.mobileTesting.CapabilitiesXpath@10bdf5e5]" name="mains" duration-ms="27839" started-at="2018-02-24T16:54:10Z" finished-at="2018-02-24T16:54:38Z">
+    <test name="Default test" duration-ms="23095" started-at="2018-02-25T16:36:16Z" finished-at="2018-02-25T16:36:39Z">
+      <class name="com.ttech.mobileTesting.miscelleanous">
+        <test-method status="PASS" signature="PressRelese()[pri:0, instance:com.ttech.mobileTesting.miscelleanous@10bdf5e5]" name="PressRelese" duration-ms="23069" started-at="2018-02-25T11:36:16Z" finished-at="2018-02-25T11:36:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mains -->
-      </class> <!-- com.ttech.mobileTesting.CapabilitiesXpath -->
+        </test-method> <!-- PressRelese -->
+      </class> <!-- com.ttech.mobileTesting.miscelleanous -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

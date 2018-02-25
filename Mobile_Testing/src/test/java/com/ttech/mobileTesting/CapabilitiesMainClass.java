@@ -18,7 +18,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
      
      DesiredCapabilities capabilities = new DesiredCapabilities();  // This Line for connect the appium server to Eclipse
      
-     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Demo"); // This Line for identify device
+     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "AndriodPhone"); // This Line for identify device
      
      capabilities.setCapability(MobileCapabilityType.APP, App.getAbsolutePath()); // This Line for (ApiDemos-debug.apk) download Demoapp in device
      
