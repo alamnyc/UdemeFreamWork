@@ -16,12 +16,10 @@ public class UIautomatorClass extends CapabilitiesMainClass{
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	//driver.findElementByAndroidUIAutomator("Attribute(\"value\")") 
-	driver.findElementByAndroidUIAutomator("text(\"Views\")").click();
+	driver.findElementByAndroidUIAutomator("text(\"Views\")").click();}}
 	
 	// Validate click able feature for all option 
 	//driver.findElementByAndroidUIAutomator("new UISelector().property(value)");
 	//System.out.println(driver.findElementByAndroidUIAutomator("new UiSelector().clickable(true)").getSize());
 	
-	}
 
-}

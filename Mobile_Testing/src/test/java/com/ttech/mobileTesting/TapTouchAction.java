@@ -23,7 +23,4 @@ public class TapTouchAction extends CapabilitiesMainClass{
          driver.findElementByXPath("//android.widget.TextView[@text='1. Custom Adapter']").click();
 	    // Tap 
         t.press(driver.findElementByXPath("//android.widget.TextView[@text='People Names']")).waitAction().release().perform();
-	    System.out.println(driver.findElementById("android:id/title").getText());
-	   
-	   
-	   }}
+	    System.out.println(driver.findElementById("android:id/title").getText()); }}

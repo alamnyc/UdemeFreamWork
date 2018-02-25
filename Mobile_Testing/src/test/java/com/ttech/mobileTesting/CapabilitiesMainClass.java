@@ -23,6 +23,4 @@ import io.appium.java_client.remote.MobileCapabilityType;
      capabilities.setCapability(MobileCapabilityType.APP, App.getAbsolutePath()); // This Line for (ApiDemos-debug.apk) download Demoapp in device
      
      AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities); // This line for appium server connects
-     return driver;
-    
-	 }}
+     return driver;}}

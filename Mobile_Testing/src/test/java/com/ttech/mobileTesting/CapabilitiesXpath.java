@@ -27,5 +27,4 @@ driver.findElementByClassName("android.widget.EditText").sendKeys("HELLO"); // t
 
 driver.findElementsByClassName("android.widget.Button").get(1).click();  // this line by indElementsByClassName and flowing (index) 
          
-         
-	}}
+ }}
