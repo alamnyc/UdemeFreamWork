@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23095" started-at="2018-02-25T16:36:16Z" finished-at="2018-02-25T16:36:39Z">
+  <suite name="Default suite" duration-ms="37410" started-at="2018-03-20T00:59:21Z" finished-at="2018-03-20T00:59:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23095" started-at="2018-02-25T16:36:16Z" finished-at="2018-02-25T16:36:39Z">
-      <class name="com.ttech.mobileTesting.miscelleanous">
-        <test-method status="PASS" signature="PressRelese()[pri:0, instance:com.ttech.mobileTesting.miscelleanous@10bdf5e5]" name="PressRelese" duration-ms="23069" started-at="2018-02-25T11:36:16Z" finished-at="2018-02-25T11:36:39Z">
+    <test name="Default test" duration-ms="37410" started-at="2018-03-20T00:59:21Z" finished-at="2018-03-20T00:59:59Z">
+      <class name="com.ttech.mobileTesting.CapabilitiesXpath">
+        <test-method status="PASS" signature="allXpath()[pri:0, instance:com.ttech.mobileTesting.CapabilitiesXpath@3c0f93f1]" name="allXpath" duration-ms="37383" started-at="2018-03-19T20:59:21Z" finished-at="2018-03-19T20:59:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PressRelese -->
-      </class> <!-- com.ttech.mobileTesting.miscelleanous -->
+        </test-method> <!-- allXpath -->
+      </class> <!-- com.ttech.mobileTesting.CapabilitiesXpath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

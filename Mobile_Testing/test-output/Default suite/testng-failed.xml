@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ttech.mobileTesting.ScrollDownClass">
+      <class name="com.ttech.mobileTesting.CapabilitiesXpath">
         <methods>
-          <include name="PressRelese"/>
+          <include name="allXpath"/>
         </methods>
-      </class> <!-- com.ttech.mobileTesting.ScrollDownClass -->
+      </class> <!-- com.ttech.mobileTesting.CapabilitiesXpath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

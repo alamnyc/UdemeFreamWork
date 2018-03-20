@@ -23,6 +23,4 @@ public class miscelleanous extends CapabilitiesMainClass{
     System.out.println(driver.isLocked());
   //  driver.hideKeyboard();
 	driver.findElementByXPath("//android.widget.TextView[@text='Views']").click();
-	driver.pressKeyCode(AndroidKeyCode.BACK);
-
-}}
+	driver.pressKeyCode(AndroidKeyCode.BACK);}}

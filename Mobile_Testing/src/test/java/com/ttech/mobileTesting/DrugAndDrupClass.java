@@ -20,6 +20,4 @@ public class DrugAndDrupClass extends CapabilitiesMainClass {
     driver.findElementByXPath("//android.widget.TextView[@text='Drag and Drop']").click();
     TouchAction t = new TouchAction(driver);
     t.longPress(driver.findElementsByClassName("android.view.View").get(0)).moveTo(driver.findElementsByClassName("android.view.View").get(1)).release().perform();
- 
-   
-}}
+ }}
